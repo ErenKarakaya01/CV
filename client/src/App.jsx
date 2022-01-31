@@ -2,8 +2,15 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import routes from "./routes"
 import Home from "./components/pages/Home"
 import NavigationBar from "./components/NavigationBar"
+import AOS from "aos"
+import { useEffect } from "react"
 
-function App() {
+const App = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
     <div className="App">
       <NavigationBar />

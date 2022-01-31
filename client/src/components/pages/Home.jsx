@@ -5,13 +5,11 @@ import circle from "../../images/circle.png"
 
 const Home = () => {
   return (
-    <Container>
-      <Row>
-        <Col className=".col-sm-12 .col-md-6">
-          <img src={circle} alt="circle" />
-        </Col>
-      </Row>
-    </Container>
+    <div id="home">
+      <Col className="col-sm-12 col-md-6 m-0 mb-5">
+        <img src={circle} alt="circle" />
+      </Col>
+    </div>
   )
 }
 
