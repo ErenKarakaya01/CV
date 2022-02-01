@@ -1,0 +1,64 @@
+footer {
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  height: 5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-top: 1px solid rgb(128, 128, 128);
+  border-bottom: 1px solid rgb(128, 128, 128);
+}
+
+.footer-icons {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-icons a {
+  cursor: pointer;
+  font-size: 25px;
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bi-linkedin {
+  color: rgb(0, 69, 173);
+}
+
+.bi-github {
+  color: rgb(104, 104, 104);
+}
+
+.bi-twitter {
+  color: rgb(0, 151, 197);
+}
+
+.bi-envelope {
+  color: rgb(234, 0, 255);
+}
+
+.estu-logo {
+  width: 31px;
+}
+
+.google-scholar {
+  height: 27px;
+  width: 29px;
+}
+
+footer address {
+  color: rgb(83, 83, 83);
+  font-size: 15px;
+}
+
+.developer a {
+  text-decoration: none;
+}

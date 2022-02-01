@@ -4,6 +4,7 @@ import Home from "./components/pages/Home"
 import NavigationBar from "./components/NavigationBar"
 import AOS from "aos"
 import { useEffect } from "react"
+import Footer from "./components/Footer"
 
 const App = () => {
   useEffect(() => {
@@ -24,6 +25,7 @@ const App = () => {
           })}
         </Routes>
       </Router>
+      <Footer />
     </div>
   )
 }

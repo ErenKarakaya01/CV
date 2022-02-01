@@ -1,6 +1,52 @@
 #home {
-  height: max-content;
+  height: calc(100vh - 136px);
   display: flex;
   align-items: center;
-  
+  overflow: auto;
+
+  #pp {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    img {
+      max-width: 100%;
+      aspect-ratio: 1 / 1;
+      position: absolute;
+    }
+
+    #circle {
+      width: 100%;
+      z-index: -1;
+      border-radius: 50%;
+    }
+
+    #profilePhoto {
+      width: 90%;
+      border-radius: 50%;
+    }
+  }
+
+  /* div {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #id {
+    z-index: 2;
+
+    img {
+      width: 10px;
+      height: 10px;
+    }
+  }
+
+  img {
+    max-width: 100%;
+  } */
 }
