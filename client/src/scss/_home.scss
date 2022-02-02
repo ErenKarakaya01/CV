@@ -2,7 +2,10 @@
   height: calc(100vh - 136px);
   display: flex;
   align-items: center;
-  overflow: auto;
+  overflow: hidden;
+  font-family: monospace;
+  font-size: 2em;
+  word-wrap: break-word;
 
   #pp {
     width: 100%;
@@ -22,31 +25,30 @@
       width: 100%;
       z-index: -1;
       border-radius: 50%;
+      animation: mymove 3s ease-in-out;
+      overflow: hidden;
+      position: absolute;
+    }
+
+    @keyframes mymove {
+      100% {transform: rotate(2160deg)}
     }
 
     #profilePhoto {
       width: 90%;
       border-radius: 50%;
+      transform: scale(0.95);
     }
   }
 
-  /* div {
+  #right {
     height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 
-  #id {
-    z-index: 2;
-
-    img {
-      width: 10px;
-      height: 10px;
-    }
+  #writing {
+    padding: 2em;
+    margin-bottom: auto;
+    height: 100%;
+    text-indent: 2em;
   }
-
-  img {
-    max-width: 100%;
-  } */
 }

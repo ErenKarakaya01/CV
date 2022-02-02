@@ -20,16 +20,16 @@ const NavigationBar = () => {
   return (
     <div>
       <Navbar color="light" expand="md" light>
-        <NavbarBrand href="/">reactstrap</NavbarBrand>
+        <NavbarBrand href="/">Portfolio</NavbarBrand>
         <NavbarToggler onClick={() => setIsOpen(!isOpen)} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="me-auto" navbar>
             <NavItem>
-              <NavLink href="/components/">Components</NavLink>
+              <NavLink href="/about">About</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">
-                GitHub
+              <NavLink href="/skills">
+                Skills
               </NavLink>
             </NavItem>
             <UncontrolledDropdown inNavbar nav>

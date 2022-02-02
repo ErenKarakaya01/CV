@@ -13,7 +13,7 @@ function Footer() {
       </div>
 
       <address>
-        ©{new Date().getFullYear()} MOFCE Lab. All Rights Reserved.
+        ©{new Date().getFullYear()} All Rights Reserved.
       </address>
     </footer>
   )
