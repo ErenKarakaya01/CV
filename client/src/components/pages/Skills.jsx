@@ -15,7 +15,7 @@ import socketio from "../../images/socketio.png"
 
 const Skills = () => {
   return (
-    <div id="skills">
+    <div id="skills" className="smallSize">
       <Col className="col-sm-12 col-md-4 col-xs-12 m-0">
         <div data-aos="fade-down" data-aos-delay="50">
           <div className="img">

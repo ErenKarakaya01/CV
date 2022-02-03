@@ -13,9 +13,29 @@ import {
   NavbarText,
   Navbar,
 } from "reactstrap"
+import { Link } from "react-router-dom"
 
 const NavigationBar = () => {
   const [isOpen, setIsOpen] = useState(false)
+  const [state, setState] = useState(0)
+  const [active, setActive] = useState(true)
+
+  const texts = [
+    "sdga",
+    "jklsdg",
+    "skaldjg",
+    "jlkşsfdg"
+  ]
+
+  const handleClick = (e) => {
+    if (active === false) return
+
+    setState(prev => ++prev)
+    
+    if (texts.length - 2 === state) {
+      setActive(false)
+    }
+  }
 
   return (
     <div>
@@ -34,17 +54,15 @@ const NavigationBar = () => {
             </NavItem>
             <UncontrolledDropdown inNavbar nav>
               <DropdownToggle caret nav>
-                Options
+                Projects
               </DropdownToggle>
               <DropdownMenu right>
-                <DropdownItem>Option 1</DropdownItem>
-                <DropdownItem>Option 2</DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem>Reset</DropdownItem>
+                <DropdownItem><NavLink href="/projects/chatapp">Sprinkai Chat</NavLink></DropdownItem>
+                <DropdownItem><NavLink href="/projects/mofcelab">Mofce Lab</NavLink></DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
           </Nav>
-          <NavbarText>Simple Text</NavbarText>
+          <NavbarText id={active ? "active" : "disabled"} onClick={handleClick}>{texts[state]}</NavbarText>
         </Collapse>
       </Navbar>
     </div>
