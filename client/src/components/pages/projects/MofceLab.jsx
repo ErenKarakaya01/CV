@@ -9,7 +9,7 @@ const MofceLab = () => {
   const [writing, setWriting] = useState("")
 
   let article =
-    "erenaslkşdjglkşa?jsdkglş.aksşldijgjaskld,jglkşajskldjgklajsdkljgla asdlkjklgjaslkdjglkasdg"
+    ""
 
   useWriteDelayed(writing, setWriting, article)
 

@@ -8,8 +8,8 @@ const Home = () => {
   const [writing, setWriting] = useState("")
 
   let article =
-    "erenaslkşdjglkşa?jsdkglş.aksşldijgjaskld,jglkşajskldjgklajsdkljgla asdlkjklgjaslkdjglkasdg"
-  
+    "Hi. My name is Eren Karakaya. I was born in 2001 in Turkey. I like playing basketball and volleyball. My favorite singer is Ed Sheeran. I'm a computer engineering student 2nd grade. I met with programming in 2017 with HTML and CSS. In fact, I don't like to design something. I love solving algorithm problems so I'm a fullstack web developer but I'm comfortable with backend. My main tools are MongoDB, Express.js, Node.js and React."
+
   useWriteDelayed(writing, setWriting, article)
 
   return (

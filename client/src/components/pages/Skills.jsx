@@ -19,10 +19,10 @@ const Skills = () => {
       <Col className="col-sm-12 col-md-4 col-xs-12 m-0">
         <div data-aos="fade-down" data-aos-delay="50">
           <div className="img">
-            <img src={html} alt="htmlcss" />
+            <img src={html} alt="html" />
           </div>
           <div className="info">
-            gasd
+            In 2017 I met programming with HTML. It was easy and made me love that science.
           </div>
         </div>
         <div data-aos="fade-right" data-aos-delay="200">
@@ -30,7 +30,7 @@ const Skills = () => {
             <img src={nodejs} alt="nodejs" />
           </div>
           <div className="info">
-            gasd
+            When I saw node.js I already knew javascript. Also, I knew a little bit backend philosophy thanks to python so node.js was really easy.
           </div>
         </div>
         <div data-aos="fade-up-right" data-aos-delay="350">
@@ -38,7 +38,7 @@ const Skills = () => {
             <img src={mongodb} alt="mongodb" />
           </div>
           <div className="info">
-            gasd
+            Before I learned MongoDB I had already experienced SQL. I think MongoDB is better than SQL because of its unrelational structure. 
           </div>
         </div>
         <div data-aos="fade-up-left" data-aos-delay="100">
@@ -46,7 +46,7 @@ const Skills = () => {
             <img src={git} alt="git" />
           </div>
           <div className="info">
-            gasd
+            Git is the best version control system by far. There is nothing much to say :D.
           </div>
         </div>
       </Col>
@@ -56,7 +56,7 @@ const Skills = () => {
             <img src={css} alt="css" />
           </div>
           <div className="info">
-            gasd
+            Actually, I hate CSS. I can't stand any of that design tools. Even making this site was full of suffering for me.
           </div>
         </div>
         <div data-aos="fade-up-left" data-aos-delay="250">
@@ -64,7 +64,7 @@ const Skills = () => {
             <img src={react} alt="react" />
           </div>
           <div className="info">
-            gasd
+            At first, react seem to me a little bit complicated but as I go deeper, I saw its beauty. React really made my frontend life easier.
           </div>
         </div>
         <div data-aos="fade-down">
@@ -72,7 +72,7 @@ const Skills = () => {
             <img src={python} alt="python" />
           </div>
           <div className="info">
-            gasd
+            I started to learn python in 2019 on my roommate's recommendation. It was the first scripting language I learned. I owe python a lot.
           </div>
         </div>
         <div data-aos="fade-down-left" data-aos-delay="350">
@@ -80,7 +80,7 @@ const Skills = () => {
             <img src={bootstrap} alt="bootstrap" />
           </div>
           <div className="info">
-            gasd
+            To be honest, I don't like that much bootstrap but sometimes I use it like I used in this site's navbar.
           </div>
         </div>
       </Col>
@@ -90,7 +90,7 @@ const Skills = () => {
             <img src={js} alt="js" />
           </div>
           <div className="info">
-            gasd
+            Javascript is currently my main scripting language. I met with it in 2021 and since it is a high level language I fell in love with it!
           </div>
         </div>
         <div data-aos="fade-right" data-aos-delay="250">
@@ -98,7 +98,7 @@ const Skills = () => {
             <img src={socketio} alt="socketio" />
           </div>
           <div className="info">
-            gasd
+            I learned socket.io during on my coding process of my chat app and it was mind blowing since I haven't had used web sockets before.
           </div>
         </div>
         <div data-aos="fade-up-right" data-aos-delay="450">
@@ -106,7 +106,7 @@ const Skills = () => {
             <img src={sass} alt="sass" />
           </div>
           <div className="info">
-            gasd
+            As I said before, I hate CSS but sass is not that bad. At the end, I can write much code in less time with sass.
           </div>
         </div>
         <div data-aos="fade-up" data-aos-delay="200">
@@ -114,7 +114,7 @@ const Skills = () => {
             <img src={java} alt="java" />
           </div>
           <div className="info">
-            gasd
+            My school teaching me Java but I don't like it. Although I don't enjoy java, I thought me OOP principles really good.
           </div>
         </div>
       </Col>

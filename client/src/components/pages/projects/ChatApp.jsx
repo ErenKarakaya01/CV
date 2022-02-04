@@ -9,7 +9,7 @@ const ChatApp = () => {
   const [writing, setWriting] = useState("")
 
   let article =
-    "erenaslkşdjglkşa?jsdkglş.aksşldijgjaskld,jglkşajskldjgklajsdkljgla asdlkjklgjaslkdjglkasdg"
+    "Sprinkai Chat is a realtime chat app made by me. I made Sprinkai Chat to learn backend and frontend technologies properly. I learned React, MongoDB, Node.js, Express.js, Socket.io etc... It was really fun. It has a login system, creating and joining rooms features. There is an 'Everyone' room when you first registered. Come and say hi!"
 
   useWriteDelayed(writing, setWriting, article)
 
@@ -21,16 +21,16 @@ const ChatApp = () => {
         data-aos-duration="1200"
         id="left"
       >
-        <Link to="sitelink">
+        <a href="https://sprinkaichat.herokuapp.com/">
           <div className="photoDiv">
             <img className="photo" src={react} alt="react" />
           </div>
-        </Link>
+        </a>
         <div className="links">
-          <Link to="repolink">
+          <a href="https://github.com/ErenKarakaya01/RealtimeChatApp-MERN">
             <i data-tip data-for="githubRepo" className="bi bi-github" />
-          </Link>
-          <Link to="sitelink">
+          </a>
+          <a href="https://sprinkaichat.herokuapp.com/">
             <img
               data-tip
               data-for="website"
@@ -38,7 +38,7 @@ const ChatApp = () => {
               src={react}
               alt="react"
             />
-          </Link>
+          </a>
 
           <ReactTooltip id="githubRepo" place="top" effect="solid">
             Github Repo
