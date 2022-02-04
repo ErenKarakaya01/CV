@@ -21,10 +21,14 @@ const NavigationBar = () => {
   const [active, setActive] = useState(true)
 
   const texts = [
-    "sdga",
-    "jklsdg",
-    "skaldjg",
-    "jlkşsfdg"
+    "Don't Click!",
+    "I said don't click.",
+    "hey",
+    "Stop!",
+    "I'll ban you.",
+    "You're annoying.",
+    "-_-",
+    "Ha Ha"
   ]
 
   const handleClick = (e) => {

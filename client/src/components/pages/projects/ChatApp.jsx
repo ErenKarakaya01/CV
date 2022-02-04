@@ -1,9 +1,9 @@
 import React, { useState } from "react"
 import { Col } from "reactstrap"
 import react from "../../../images/react.png"
+import chatapp from "../../../images/chatapp.png"
 import useWriteDelayed from "../../../hooks/useWriteDelayed"
 import ReactTooltip from "react-tooltip"
-import { Link } from "react-router-dom"
 
 const ChatApp = () => {
   const [writing, setWriting] = useState("")
@@ -21,16 +21,16 @@ const ChatApp = () => {
         data-aos-duration="1200"
         id="left"
       >
-        <a href="https://sprinkaichat.herokuapp.com/">
+        <a href="https://sprinkaichat.herokuapp.com/" target="_blank">
           <div className="photoDiv">
-            <img className="photo" src={react} alt="react" />
+            <img id="chatapp" className="photo" src={chatapp} alt="react" />
           </div>
         </a>
         <div className="links">
-          <a href="https://github.com/ErenKarakaya01/RealtimeChatApp-MERN">
+          <a href="https://github.com/ErenKarakaya01/RealtimeChatApp-MERN" target="_blank">
             <i data-tip data-for="githubRepo" className="bi bi-github" />
           </a>
-          <a href="https://sprinkaichat.herokuapp.com/">
+          <a href="https://sprinkaichat.herokuapp.com/" target="_blank">
             <img
               data-tip
               data-for="website"
