@@ -9,7 +9,7 @@ const ChatApp = () => {
   const [writing, setWriting] = useState("")
 
   let article =
-    "Sprinkai Chat is a realtime chat app made by me. I made Sprinkai Chat to learn backend and frontend technologies properly. I learned React, MongoDB, Node.js, Express.js, Socket.io etc... It was really fun. It has a login system, creating and joining rooms features. There is an 'Everyone' room when you first registered. Come and say hi!"
+    "Sprinkai Chat is a realtime chat app made by me. I made Sprinkai Chat to learn backend and frontend technologies properly. I learned React, MongoDB, Node.js, Express.js, Socket.io etc... It was really fun. It has a login system and allows users to create and join rooms. There is an 'Everyone' room when you first registered. Come and say hi!"
 
   useWriteDelayed(writing, setWriting, article)
 
